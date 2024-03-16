@@ -2,11 +2,11 @@
 
 Index:-
 
-Lab 1:-__
+Lab 1:-
 
-Hornerrule_
-SelectionSort_
-Sum of n numbers_
+Hornerrule-
+SelectionSort-
+Sum of n numbers-
 Truth Table_
 TowerofHanoi_
 data.txt_
