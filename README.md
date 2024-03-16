@@ -4,8 +4,8 @@ Index:-
 
 Lab 1:-
 
-Hornerrule-
-SelectionSort-
+Hornerrule:-
+SelectionSort:-
 Sum of n numbers-
 Truth Table_
 TowerofHanoi_
