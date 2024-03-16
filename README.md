@@ -4,35 +4,35 @@ Index:-
 
 Lab 1:-
 
-Hornerrule\
-SelectionSort\
-Sum of n numbers\
-Truth Table\
-TowerofHanoi\
-data.txt\
+1-Hornerrule\
+2-SelectionSort\
+3-Sum of n numbers\
+4-Truth Table\
+5-TowerofHanoi
+
 
 Lab2:-
 
-MagicSquare\
-MergeTwoSorted\
-PositionEleList\
-Power\
+1-MagicSquare\
+2-MergeTwoSorted\
+3-PositionEleList\
+4-Power
 
 Lab 3:-
 
-MaxandMin\
-MergeSort\
-QuickSort\
+1-MaxandMin\
+2-MergeSort\
+3-QuickSort
 
 Lab 4:-
 
-Activity selector\
-Binary Search\
-Knapsack\
+1-Activity selector\
+2-Binary Search\
+3-Knapsack
 
 Lab 5:-
 
-kruskalsAlgo\
-Prims algo\
-Single source shortest path\
+1-kruskalsAlgo\
+2-Prims algo\
+3-Single source shortest path
 
