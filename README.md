@@ -4,10 +4,10 @@ Index:-
 
 Lab 1:-
 
-Hornerrule:-
-SelectionSort:-
-Sum of n numbers-
-Truth Table_
+Hornerrule\
+SelectionSort\
+Sum of n numbers\
+Truth Table\
 TowerofHanoi_
 data.txt_
 
