@@ -8,31 +8,31 @@ Hornerrule\
 SelectionSort\
 Sum of n numbers\
 Truth Table\
-TowerofHanoi_
-data.txt_
+TowerofHanoi\
+data.txt\
 
-Lab2:-__
+Lab2:-
 
-MagicSquare_
-MergeTwoSorted_
-PositionEleList_
-Power_
+MagicSquare\
+MergeTwoSorted\
+PositionEleList\
+Power\
 
-Lab 3:-__
+Lab 3:-
 
-MaxandMin_
-MergeSort_
-QuickSort_
+MaxandMin\
+MergeSort\
+QuickSort\
 
-Lab 4:-__
+Lab 4:-
 
-Activity selector_
-Binary Search_
-Knapsack_
+Activity selector\
+Binary Search\
+Knapsack\
 
-Lab 5:-__
+Lab 5:-
 
-kruskalsAlgo_
-Prims algo_
-Single source shortest path_
+kruskalsAlgo\
+Prims algo\
+Single source shortest path\
 
