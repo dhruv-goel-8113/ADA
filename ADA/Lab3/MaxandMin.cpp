@@ -74,7 +74,7 @@ int main(){
         }
         time1 =(double)clock();
         for(int k=0;k<10;k++){
-            MaxMinIterative(b,0,i-1);
+            MaxMinIterative(b,0,i-1,max,min);
         }
         time2=(double)clock();
         avgtime_itr=(double)(time2-time1)/10;
