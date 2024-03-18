@@ -13,17 +13,16 @@ void WriteDataToFile(int i, double avgtime_iter , double avgtime_rec) {
     }
 }
 
-void MaxMinIterative(int *a, int low, int high){
-    for(int i=low;i<=high;i++){
-        for(int j=i+1;j<=high;j++){
-            if(a[i]>a[j]){
-                int t= a[i];
-                a[i]=a[j];
-                a[j]=t;
-            }
-        }
+void MaxMinIterative(int* a, int low, int high, int& max, int& min) {
+    max = INT_MIN;
+    min = INT_MAX;
+    
+    for (int i = low; i <= high; i++) {
+        if (a[i] > max)
+            max = a[i];
+        if (a[i] < min)
+            min = a[i];
     }
-   
 }
 void MaxMin(int* a, int low, int high, int& max, int& min) {
     if (low == high) {
