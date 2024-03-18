@@ -25,34 +25,38 @@ void MaxMinIterative(int *a, int low, int high){
     }
    
 }
-void MaxMin(int* a, int low, int high){
-    int max, min,mid,max1,min1;
-    if(low ==high){
-        max=a[low];
-        min=a[low];
+void MaxMin(int* a, int low, int high, int& max, int& min) {
+    if (low == high) {
+        max = a[low];
+        min = a[low];
+        return;
     }
-    else{
-        mid=(low+high)/2;
-        MaxMin(a,low, mid);
+    if (high - low == 1) {
+        if (a[low] < a[high]) {
+            max = a[high];
+            min = a[low];
+        } else {
+            max = a[low];
+            min = a[high];
+        }
+        return;
     }
-    if(low ==high){
-        max1=a[low];
-        min1=a[low];
+
+    int mid = (low + high) / 2;
+    int max1, min1;
+    MaxMin(a, low, mid, max, min);
+    MaxMin(a, mid + 1, high, max1, min1);
+
+    if (max < max1) {
+        max = max1;
     }
-    else{
-        mid=(low+high)/2;
-        MaxMin(a,mid+1,high);
+    if (min > min1) {
+        min = min1;
     }
-    if(max<max1){
-        max=max1;
-    }
-    if(min>min1){
-        min=min1;
-    }
-   
 }
 int main(){
     double avgtime_itr,avgtime_rec,time1,time2;
+    int max,min;
     for(int i=100;i<1000;i+=100){
         int *a = new int [i];
         for(int j=0;j<i;j++){
@@ -60,7 +64,7 @@ int main(){
         }
         time1 =(double)clock();
         for(int k=0;k<10;k++){
-            MaxMin(a,1,i);
+            MaxMin(a,1,i,max,min);
         }
         time2=(double)clock();
         avgtime_rec=(double)(time2-time1)/10;
