@@ -115,6 +115,8 @@ The code performs the following tasks:
 
 The time complexity of the Quick Sort algorithm used in this code is O(n log n) on average and O(n^2) in the worst case, where n is the size of the array. Quick Sort generally exhibits efficient performance due to its average-case time complexity being O(n log n). However, it can degrade to O(n^2) if the chosen pivot element is consistently one of the smallest or largest elements in the array.
 
+![image](https://github.com/HarshitUIET/ADA/assets/140891146/285f45d1-176a-4d47-b6b2-495e31dccb9f)
+
 ## Functions
 
 ### `void WriteDataToFile(int i, double avgtime)`
