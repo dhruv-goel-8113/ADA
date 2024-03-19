@@ -12,6 +12,12 @@ The code performs the following tasks:
 4. **Data Logging**: It writes the array size and corresponding average time to a file named `data4.txt`.
 5. **Plotting**: It plots the data stored in `data4.txt` using Gnuplot.
 
+## Time Complexity
+The time complexity of evaluating a polynomial of degree n using Horner's Rule is O(n). This is because it involves n additions and 
+n multiplications, making it a linear time algorithm in terms of the degree of the polynomial.
+
+![image](https://github.com/HarshitUIET/ADA/assets/140891146/432bc6f4-85a1-4f27-a89f-8d6c45fa7532)
+
 ## Functions
 
 ### `void WriteDataToFile(long int i, double avgtime)`
